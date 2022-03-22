@@ -17,21 +17,28 @@
                 <div class="form-group">
                     <label for="telefone">📱 Número do WhatsApp</label>
                     <input type="text" class="form-control" id="telefone"   placeholder="(00) 00000-0000" onkeyup="telefoneConfig()" maxlength="15">
+                
                 </div>
                 <div class="form-group">
                     <label for="mensagem">💬 Mensagem</label>
                     <textarea class="form-control" id="mensagem" rows="3" placeholder="Mensagem (opcional)"></textarea>
                 </div>
-                <button type="button" class="btn btn-success" onclick="gerarLink()">Gerar Link</button>
+                <center>
+                    <button type="button" class="btn btn-success" onclick="gerarLink()">Gerar Link</button>
+                </center>
+               
+
             </form>
             <br>
         </div>
         <div id="divLink" style="display: none">
+            <center>
             <h5>Link gerado com sucesso!</h5>
             <img src="images/whatsapp.png" width="24" >
             <input type='text'  id='link' rows='1'value='' disabled/>
             <button type='button' id="btnCopiar" class='btn btn-light' onclick='copiar()' >Copiar</button>
-            <br><p id="txtStatus">Copie e compartilhe!</p><br>
+            <br><p id="txtStatus" class="txtInfo">Copie e compartilhe!</p><br>
+            </center>
         </div>
     </div>
 </body>
