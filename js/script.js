@@ -26,7 +26,7 @@ function gerarLink(){
     }
     document.getElementById("txtStatus").innerHTML ="Copie e compartilhe!";
     document.getElementById("divLink").style.animation ="";
-    setTimeout(() =>  document.getElementById("divLink").style.animation = "confirmaBackgroundColor 500ms linear", 0.5);
+    setTimeout(() =>  document.getElementById("divLink").style.animation = "confirmaBackgroundColor 1s  linear", 0.5);
    
 }
 function verificarNumero(str){
