@@ -1,0 +1,19 @@
+body{
+    background-color: #0B141A;
+    background-image: url("../images/fundo.png");
+    background-repeat: atributo;
+    background-attachment: fixed;
+}
+.capa{
+    background-color: #1D1E20;
+}
+div{
+    margin-top: 30px;
+    background-color: white;
+}
+h1{
+    color:dimgray;
+}
+h5{
+    color:dimgray;
+}
