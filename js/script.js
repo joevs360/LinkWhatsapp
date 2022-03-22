@@ -24,6 +24,10 @@ function gerarLink(){
     else{
         alert ("Digite o número do whatsapp!")
     }
+    document.getElementById("txtStatus").innerHTML ="Copie e compartilhe!";
+    document.getElementById("divLink").style.animation ="";
+    setTimeout(() =>  document.getElementById("divLink").style.animation = "confirmaBackgroundColor 500ms linear", 0.5);
+   
 }
 function verificarNumero(str){
     return str.replaceAll(/[^0-9]/g,'')
@@ -43,3 +47,4 @@ function telefoneConfig(){
     }
     document.getElementById('telefone').value =saida;
 }
+

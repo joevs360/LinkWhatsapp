@@ -22,3 +22,16 @@ h5{
     color:dimgray;
     font-size: 12px;
 }
+
+
+@keyframes confirmaBackgroundColor {
+    0% {
+      background-color: #fff;
+    }
+    50% {
+      background-color: #dcffe5;
+    }
+    100% {
+      background-color: #fff;
+    }
+  }
